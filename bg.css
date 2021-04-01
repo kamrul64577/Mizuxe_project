@@ -1,0 +1,33 @@
+body{
+    margin-top:74px;
+}
+.navbar{
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: 0.9;
+}
+#back{
+    background-image: url('img/tree.jpg');
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+}
+#back .pr-overlay{
+    position: absolute;
+    background:  rgba(50,146,156,0.7);
+    min-height: 600px;
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#back .pr-overlay h1{
+    padding-top: 12rem;
+}
+@media(max-width:576px){
+    #back .pr-overlay h1{
+        padding-top: 9rem;
+        font-size:2.5rem;
+    }
+}
